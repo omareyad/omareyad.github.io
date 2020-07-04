@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap v4.5 Css file -->
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>HomePage</title>
+</head>
+
+<body>
+    <!--Header HomePage-->
+    <header>
+        <div class="barColor"></div>
+        <!--NavBar -->
+        <div class="wrapper-nav abs-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md">
+                            <a href="#" class="navbar-brand"><span>O</span>mar <span>E</span>yad </a>
+                            <span data-target="#navbarSupportedContent" data-toggle="collapse"
+                                class="menu navbar-toggler"
+                                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                                aria-label="Main Menu">
+                                <svg width="40" height="35" viewBox="0 0 100 100">
+                                    <path class="line line1"
+                                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                    <path class="line line2" d="M 20,50 H 80" />
+                                    <path class="line line3"
+                                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                                </svg>
+                            </span>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto mr-5">
+                                    <li class="nav-item active ml-md-4 ml-0">
+                                        <a href="index.html" class="nav-link">Home</a>
+                                    </li>
+                                    <li class="nav-item ml-md-4 ml-0">
+                                        <a class="nav-link" onclick="scrollNav(1)">Skills</a>
+                                    </li>
+                                    <li class="nav-item ml-md-4 ml-0">
+                                        <a class="nav-link" onclick="scrollNav(2)" >Projects</a>
+                                    </li>
+                                    <li class="nav-item ml-md-4 ml-0">
+                                        <a class="nav-link" onclick="scrollNav(0)">About</a>
+                                    </li>
+                                    <li class="nav-item ml-md-4 ml-0">
+                                    <a class="nav-link" onclick="scrollfriend()">Social Profiles</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="wrapper-video container-fluid h-100 p-0">
+            <div class="bg">
+                <video autoplay loop muted>
+                    <source src="img/multiColors.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="info">
+                <h1 id="heading1"><span class="maincolor">o</span>mar <span class="maincolor">e</span>yad - <span class="maincolor">s</span>oftware <span class="maincolor">e</span>ngineering</h1>
+                <div class="arrowDown"></div>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <div class="mySkills-tabs">
+        <div class="container-fluid pl-4 pr-4">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="tabsMenu">
+                        <li class="tabItem activeTabs"><a class="tab-link">About</a></li>
+                        <li class="tabItem"><a class="tab-link">Skills</a></li>
+                        <li class="tabItem"><a class="tab-link">Projects</a></li>
+                        <li class="tabItem"><a class="tab-link">Education</a></li>
+                    </ul>
+
+                    <div class="Tab-content">
+                        <div class="container-fluid p-0 tabs">
+                            <!--Tab 1-->
+                            <div class="tab tab1 showTab">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 imgs">
+                                        <img src="https://assets.atlanticbt.com/content/uploads/2019/12/g_feature-web-development-3.svg"
+                                            alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-6 Text">
+                                        <h4 class="maincolor h4">About Me</h4>
+                                        <h2 class="h2"><span class="maincolor big">Why</span>hire me for your next
+                                            project?</h2>
+                                        <p>I worked for <span class="maincolor">Laqtah Media</span> for two years from
+                                            2018 - 2020.
+                                            <br />
+                                            I graduated from <span class="maincolor">Philadelphia University </span>this
+                                            semester 2020.<br>
+                                            My rate is <span class="maincolor">excellent</span>.<br />
+                                            And I did many<span class="maincolor">projects</span> compatible with all
+                                            screens.
+                                            I am still learning and I always learn because I <span
+                                                class="maincolor">love</span> these things</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Tab 1-->
+
+                            <!--Tab 2-->
+                            <div class="tab tab2">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">Html 5</li>
+                                                <li class="number">92%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 92%;"></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">Css 3</li>
+                                                <li class="number">85%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 85%;"></div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">Java Script</li>
+                                                <li class="number">75%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 75%;"></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">Ecma 6 </li>
+                                                <li class="number">70%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 70%;"></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">Bootstrap 4 Full Responsive Web  </li>
+                                                <li class="number">90%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 90%;"></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">Angular </li>
+                                                <li class="number">40%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 40%;"></div>
+                                        </div>
+                                    </div>
+                                    <h4 class="Addition">Addition Skills</h4>
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">C# OOP</li>
+                                                <li class="number">89%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 89%;"></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">C++</li>
+                                                <li class="number">78%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 78%;"></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 col-md-6 Skillbar">
+                                        <div class="progress-info">
+                                            <ul class="skillsName">
+                                                <li class="name">.Net</li>
+                                                <li class="number">60%</li>
+                                            </ul>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-line" style="width: 60%;"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--End Tab 2-->
+
+                            <!--Tab 3-->
+                            <div class="tab tab3">
+                                <div class="row">
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://omareyad.github.io/ToroMarket/" target="_black" class="link-git"><span>Toro Project </span></a>
+                                            </div>
+                                            <img class="projectImg"
+                                                src="https://www.quantgemfx.com/wp-content/uploads/2019/10/439.jpg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://omareyad.github.io/Forex/" target="_black" class="link-git"><span>Forex Project </span></a>
+                                            </div>
+                                            <img class="projectImg" src="img/forexProject.jpg" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://omareyad.github.io/rfi/" target="_blank" class="link-git"><span>Rfi Project </span></a>
+                                            </div>
+                                            <img class="projectImg" src="img/rfi4x.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://omareyad.github.io/AnmarSudi/" target="_blank" class="link-git"><span>Anmar Project </span></a>
+                                            </div>
+                                            <img class="projectImg" src="img/Anmar.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://github.com/omareyad/ProjectMangment-C-Vp" target="_blank" class="link-git"><span>c# Vp Project </span></a>
+                                            </div>
+                                            <img class="projectImg" src="img/c.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://github.com/omareyad/KasperPhP" target="_blank" class="link-git"><span>PHP Project </span></a>
+                                            </div>
+                                            <img class="projectImg" src="img/php.jpg" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://github.com/omareyad/Kacper-Live" target="_blank" class="link-git"><span>Angular Project </span></a>
+                                            </div>
+                                            <img class="projectImg" src="img/Angular8.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <div class="project">
+                                            <div class="overlay">
+                                                <a href="https://github.com/omareyad/MvcTicket" target="_blank" class="link-git"><span>Asp.Net Mvc </span></a>
+                                            </div>
+                                            <img class="projectImg" src="img/mvc.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Tab 3-->
+                            <!--Tab 4-->
+                            <div class="tab tab4">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 imgs">
+                                        <img style="width: 80%;margin-top: 0px;"
+                                            src="https://www.htmlden.com/wp-content/themes/ks/img/web-developer-master-tn.svg"
+                                            alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-6 Text">
+                                        <h4 class="maincolor">Education</h4>
+                                        <ul class="edu">
+                                            <li>Philadelphia University - Faculty Of Information Technology - Software Engineering 2016 -2020 </li>
+                                            <li>Laqtah Media 2018- 2020</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Tab 4-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="friends">
+        <div class="container">
+            <div class="Be-friends">
+                <h4 class="h4 maincolor">Social Media</h4>
+                <h2>Let’s Be Friends</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <a class="link-social" href="https://www.linkedin.com/in/omar-eyad-32b159135/" target="_black">
+                            <div class="social">
+                                <span class="icons">
+                                    <span class="icon"><img
+                                            src="https://cdn.icon-icons.com/icons2/509/PNG/128/linkedin_icon-icons.com_49942.png"
+                                            alt=""></span>
+                                </span>
+                                <span class="text">
+                                    <span class="name ">LinkedIn</span>
+                                    <span class="profile maincolor">Social Profile</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <a class="link-social" href="https://web.facebook.com/omarzoz.eiad" target="_black">
+                            <div class="social">
+                                <span class="icons">
+                                    <span class="icon"><img src="img/fb.png" alt=""></span>
+                                </span>
+                                <span class="text">
+                                    <span class="name ">Facebook</span>
+                                    <span class="profile maincolor">Social Profile</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <a class="link-social" href="https://www.instagram.com/or_mh_8/" target="_blank">
+                            <div class="social">
+                                <span class="icons">
+                                    <span class="icon"><img src="img/insta.png" alt=""></span>
+                                </span>
+                                <span class="text">
+                                    <span class="name ">Instagram</span>
+                                    <span class="profile maincolor">Social Profile</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <a class="link-social" href="mailto: omareyad939@gmail.com" target="_blank">
+                            <div class="social">
+                                <span class="icons">
+                                    <span class="icon"><img src="img/google.png" alt=""></span>
+                                </span>
+                                <span class="text">
+                                    <span class="name ">Google</span>
+                                    <span class="profile maincolor">Social Profile</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <a class="link-social" href="https://github.com/omareyad" target="_blank">
+                            <div class="social">
+                                <span class="icons">
+                                    <span class="icon"><img src="img/github.png" alt=""></span>
+                                </span>
+                                <span class="text">
+                                    <span class="name ">GitHub</span>
+                                    <span class="profile maincolor">Social Profile</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <a class="link-social" >
+                            <div class="social">
+                                <span class="icons">
+                                    <span class="icon"><img src="img/twitter.png" alt=""></span>
+                                </span>
+                                <span class="text">
+                                    <span class="name ">Twitter</span>
+                                    <span class="profile maincolor">Social Profile</span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <ul class="footerUl">
+                <li class="maincolor">Home</li>
+                <li> <a class="nav-link" onclick="scrollNav(1)">Skills</a></li>
+                <li> <a class="nav-link" onclick="scrollNav(2)">Projects</a></li>
+                <li> <a class="nav-link" onclick="scrollfriend()">Social Profiles</a></li>
+            </ul>
+            <div class="copy">
+                Copyright By@OmarEyad - 2020
+            </div>
+        </div>
+    </footer>
+
+    <div class="arrowup">
+        <div class="wrapper">
+            <span class="iconsup"><img src="img/up-30.png" alt=""></span>
+        </div>
+    </div>
+    <!--Jquery and Bootstrp js files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!--Main js -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
