@@ -577,6 +577,24 @@ footer{
     opacity: 1;
   }
 }
+
+.cv{
+  margin: 10px;
+    font-size: 15px;
+    color: white;
+  }
+  .cv:hover{
+        text-decoration: none;
+    }
+.cv span{
+  padding: 12px;
+  border: 1px solid #FFC576;
+  transition: 0.6s ease-in-out;
+}
+.cv span:hover{
+  background-color: #FFC576;
+  color: #080807;
+}
   /*Media Query */
   @media (max-width: 991px) {
     .icons .icon img{
