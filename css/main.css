@@ -626,4 +626,14 @@ footer{
     left: 54%;
     margin-bottom: 45px;
 }
+.Tab-content {
+ padding: 0px 20px 0px 20px;
+	     }
+.big{
+    font-size: 27px;
+	padding-right: 4px;
+	  }
+.tab3 {
+    padding: 5px;
+}
 }
