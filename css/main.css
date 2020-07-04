@@ -587,11 +587,12 @@ footer{
   .cv:hover{
         text-decoration: none;
     }
-.cv span{
+.cv span {
   padding: 12px;
   border: 1px solid #FFC576;
   transition: 0.6s ease-in-out;
 }
+
 .cv span:hover{
   background-color: #FFC576;
   color: #080807;
@@ -659,7 +660,8 @@ cursor:pointer;
 .project span{
 	left:36.5%;
 	  }
-.tab1{
-	 padding: 30px 0px;
+.tab1 {
+	padding:30px 0px;
+	margin:0;
      }
 }
