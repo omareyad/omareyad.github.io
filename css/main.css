@@ -582,6 +582,7 @@ footer{
   margin: 10px;
     font-size: 15px;
     color: white;
+
   }
   .cv:hover{
         text-decoration: none;
@@ -594,6 +595,7 @@ footer{
 .cv span:hover{
   background-color: #FFC576;
   color: #080807;
+cursor:pointer;
 }
   /*Media Query */
   @media (max-width: 991px) {
