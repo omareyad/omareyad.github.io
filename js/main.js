@@ -30,9 +30,6 @@ typeEffect(heading1, 150);
 
 let TabsUl = Array.from(document.querySelectorAll('.tabsMenu .tabItem')); //Array of Items
 let Tabs = Array.from(document.querySelectorAll('.tabs .tab'));
-console.log(TabsUl);
-console.log(Tabs);
-
 
 const TabsBtn = (index) =>{
 
@@ -59,7 +56,6 @@ for(var i = 0 ; i<TabsUl.length ; i++){
     TabsUl[i].onclick = function()
     {
   let index = parseInt(this.getAttribute('data-index'));
-  console.log(index);
  TabsBtn(index);
 
     };
@@ -67,7 +63,6 @@ for(var i = 0 ; i<TabsUl.length ; i++){
 
 /* Arrow UP Show Hide */
   let ArrowUP = document.querySelector('.arrowup');
-  console.log(ArrowUP);
 
   window.onscroll = ()=>{
     (window.pageYOffset > 740)? ArrowUP.classList.add('showTab'):ArrowUP.classList.remove('showTab');
@@ -90,10 +85,8 @@ ArrowDown.onclick = ()=>{
 let scrollNav = (index) =>{
   window.scrollTo({top:rect,behavior:'smooth'});
   TabsBtn(index);
-  console.log(index);
 }
 let friendSection = document.querySelector('.Be-friends').getBoundingClientRect().top;
 let scrollfriend = () =>{
-  console.log(friendSection);
 window.scrollTo({top:friendSection,behavior:'smooth'});
 }
